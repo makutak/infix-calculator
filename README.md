@@ -1,4 +1,5 @@
 # infix-calculator
+[![CircleCI](https://circleci.com/gh/makutak/infix-calculator.svg?style=svg)](https://circleci.com/gh/makutak/infix-calculator)
 
 A Clojure library designed to ... well, that part is up to you.
 
