@@ -14,4 +14,6 @@
            (int (infix '(1 - 2 * 3 + 4 * 5 ))))))
   (testing "calculate nested infix"
     (is (= -2
-           (int (infix '(1 + 3 * (4 - 5))))))))
+           (int (infix '(1 + 3 * (4 - 5))))))
+    (is (= 8
+           (int (infix '(1 + 4 - (3 * (4 - 5)))))))))
