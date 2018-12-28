@@ -1,4 +1,4 @@
-(ns infix-calculator.parse)
+(ns infix-calculator.calc)
 
 (def operators-order [{:operator '+ :order 1}
                       {:operator '- :order 1}

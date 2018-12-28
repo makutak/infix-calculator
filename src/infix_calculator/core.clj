@@ -1,5 +1,5 @@
 (ns infix-calculator.core
-  (:require [infix-calculator.parse :refer [parse]]))
+  (:require [infix-calculator.calc :refer [parse]]))
 
 (defn infix
   [infixed]
